@@ -1,0 +1,677 @@
+{
+    "spider": "./yu/spider.jar",
+    "wallpaper": "http://bobohome.ignorelist.com:20247/bing",
+    "logo": "https://daili.korice.eu.org/https://raw.githubusercontent.com/qq859/cj/refs/heads/main/%E5%9B%BE%E7%89%87/HYTV.png",
+
+    "sites": [
+        {"jar":"./yu/0924.jar",
+        "key":"csp_Market",
+        "name":"🎧洪宇┃应用商店",
+        "type":3,"api":"csp_Market",
+        "searchable":0,
+        "changeable":0,
+        "ext":"./yu/1993.json"},
+        
+        {"jar":"./yu/jp.jar",
+      "key": "csp_Jianpian",
+      "name": "📲洪宇┃荐片",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "filters": "./yu/jianpian.json",
+        "sites": "https://api.ztcgi.com"
+      }
+    },
+        
+        {
+                      "key":"MTV","name":"🎧洪宇┃哔哩试听","jar": "./yu/yu.jar","type":3,"api":"csp_Bili","style":{"type":"rect","ratio":1.597},
+                       "searchable":0,"quickSearch":0,"changeable":0,"ext":"./yu/yu.json" 
+                       },
+
+    {
+      "key": "csp_XYQHiker_虎牙直播",
+      "name": "🎧洪宇┃虎牙",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "./yu/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "./yu/虎牙直播.json"
+    },
+
+    {
+      "key": "csp_XYQHiker_斗鱼直播",
+      "name": "🎧洪宇┃斗鱼",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "./yu/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "./yu/斗鱼直播.json"
+    },
+
+
+
+		{
+			"key": "BiliBili",
+			"name": "🎧洪宇┃MTV",
+	"jar": "./yu/pg.jar;md5;./pg.jar.md5",
+			"type": 3,
+			"api": "csp_Bili",
+			"style": {
+				"type": "rect",
+				"ratio": 1.597
+			},
+			"searchable": 1,
+			"quickSearch": 0,
+			"changeable": 0,
+			"timeout": 60,
+			"ext": {
+				"json": "./yu/yu.json",
+				"cookie": ""
+			}
+		},
+
+
+
+        {"key":"lf_live8_min.js",
+        "jar":"./yu/0924.jar",
+        "name":"🎧洪宇┃本地《YT2》",
+        "type":3,"playerType":2,
+        "api":"./yu/lf_live8_min.js","ext":"./yu/YT2.txt"},
+
+        {"key":"lf_live8_min.js3",
+        "jar":"./yu/0924.jar",
+        "name":"🎧洪宇┃Download《YT2》",
+        "type":3,"playerType":2,
+        "api":"./yu/lf_live8_min.js","ext":"http://127.0.0.1:9978/file/Download/YT2.txt"},
+
+
+        {"key":"lf_live8_min.js2",
+        "jar":"./yu/0924.jar",
+        "name":"🎧洪宇┃网络《YT2》",
+        "type":3,"playerType":2,
+        "api":"https://cors.isteed.cc/https://raw.githubusercontent.com/vvvzhy/vvvzhy/refs/heads/main/tvbox/js/lf_live8_min.js","ext":"https://cors.isteed.cc/https://raw.githubusercontent.com/llllse/hyyy/refs/heads/main/yu/YT2.txt"},
+
+
+
+
+
+
+
+
+        {"jar":"https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/1993.jar",
+        "key":"YU_Market",
+        "name":"📢洪宇┃网络应用商店",
+        "type":3,"api":"csp_Market",
+        "searchable":0,
+        "changeable":0,
+        "ext":"https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/1993.json"},
+
+        
+    {
+      "key": "csp_XYQHiker_虎牙直播",
+      "name": "🎧洪宇┃网络虎牙",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/虎牙直播.json"
+    },
+
+    {
+      "key": "csp_XYQHiker_斗鱼直播",
+      "name": "🎧洪宇┃网络斗鱼",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "jar": "https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/custom_spider.jar;md5;e6f46d10150d782fcb10ef179bab3f47",
+      "ext": "https://daili.korice.eu.org/https://raw.githubusercontent.com/llllse/1993/refs/heads/main/斗鱼直播.json"
+    }
+        
+
+
+
+
+    ],
+    "parses": [
+        {
+            "name": "洪宇无上",
+            "type": "1",
+            "url": "https://mfjx.iwsyy.xyz/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "腾讯",
+                    "qiyi",
+                    "爱奇艺",
+                    "奇艺",
+                    "youku",
+                    "优酷",
+                    "sohu",
+                    "搜狐",
+                    "letv",
+                    "乐视",
+                    "mgtv",
+                    "芒果",
+                    "tnmb",
+                    "seven",
+                    "bilibili",
+                    "1905"
+                ],
+                "header": {
+                    "User-Agent": "okhttp/4.9.1"
+                }
+            }
+        },
+
+        {
+            "name": "洪宇咸鱼",
+            "type": 0,
+            "url": "https://jx.xymp4.cc/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.3124.68"
+                }
+            }
+        },
+        {
+            "name": "洪宇虾米",
+            "type": 0,
+            "url": "https://jx.xmflv.com/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57"
+                }
+            }
+        },
+
+        {
+            "name": "洪宇夜幕",
+            "type": 0,
+            "url": "https://yemu.xyz/?url=",
+            "ext": {
+                "header": {
+                    "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
+                }
+            }
+        }
+    ],
+    "rules": [
+        {
+            "name": "洪宇农民",
+            "hosts": [
+                "toutiaovod.com"
+            ],
+            "regex": [
+                "video/tos/cn"
+            ]
+        },
+        {
+            "name": "洪宇火山",
+            "hosts": [
+                "huoshan.com"
+            ],
+            "regex": [
+                "item_id="
+            ]
+        },
+        {
+            "name": "洪宇抖音",
+            "hosts": [
+                "douyin.com"
+            ],
+            "regex": [
+                "is_play_url="
+            ]
+        },
+        {
+            "name": "洪宇饭团点击",
+            "hosts": [
+                "dadagui",
+                "freeok",
+                "dadagui"
+            ],
+            "script": [
+                "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();"
+            ]
+        },
+        {
+            "name": "洪宇毛驴点击",
+            "hosts": [
+                "www.maolvys.com"
+            ],
+            "script": [
+                "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
+            ]
+        },
+        {
+            "name": "洪宇ofiii",
+            "hosts": [
+                "www.ofiii.com"
+            ],
+            "script": [
+                "const play=document.getElementsByClassName('play_icon')[0],event=new MouseEvent('click',{bubbles:!0,cancelable:!0,view:window,screenX:100,screenY:100,clientX:50,clientY:50,button:0,shiftKey:!1,ctrlKey:!1,altKey:!1,metaKey:!1,modifierState:0});play.dispatchEvent(event);"
+            ]
+        }
+    ],
+    "doh": [
+        {
+            "name": "洪宇Google",
+            "url": "https://dns.google/dns-query",
+            "ips": [
+                "8.8.4.4",
+                "8.8.8.8"
+            ]
+        },
+        {
+            "name": "洪宇Cloudflare",
+            "url": "https://cloudflare-dns.com/dns-query",
+            "ips": [
+                "1.1.1.1",
+                "1.0.0.1",
+                "2606:4700:4700::1111",
+                "2606:4700:4700::1001"
+            ]
+        },
+        {
+            "name": "洪宇AdGuard",
+            "url": "https://dns.adguard.com/dns-query",
+            "ips": [
+                "94.140.14.140",
+                "94.140.14.141"
+            ]
+        },
+        {
+            "name": "洪宇DNSWatch",
+            "url": "https://resolver2.dns.watch/dns-query",
+            "ips": [
+                "84.200.69.80",
+                "84.200.70.40"
+            ]
+        },
+        {
+            "name": "洪宇Quad9",
+            "url": "https://dns.quad9.net/dns-quer",
+            "ips": [
+                "9.9.9.9",
+                "149.112.112.112"
+            ]
+        }
+    ],
+    "lives": [
+{"name":"【洪宇一起看3】","type":0,"url":"./yqk3.m3u","ua":"okhttp/3.15,AptvPlayer/1.4.0","logo":"https://epg.v1.mk/logo/{name}.png","playerType":2},        
+
+        {
+            "name": "洪宇的一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "./yqk3.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+
+
+
+
+        {
+            "name": "tv1",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/l19270149853/ZBY/refs/heads/main/tv1.txt",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇的斗鱼",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇的YY",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://sub.ottiptv.cc/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+    {
+      "name": "洪宇的lPV6",
+      "type": 0,
+      "url": "./live/lPV6.txt",
+      "playerType": 2,
+      "timeout": 10
+    },
+        {
+            "name": "洪宇的lpv4",
+            "type": 0,
+            "url": "https://sub.ottiptv.cc/iptv.m3u",
+            "timeout": 10
+        },
+
+
+          {
+            "name": "洪宇lpv4[2]",
+            "type": 0,
+            "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/cluntop/cluntop.github.io/refs/heads/main/lib/iptv.m3u",
+            "timeout": 10
+        }, 
+        {
+            "name": "洪宇lpv4",
+            "type": 0,
+            "url": "https://hub.gitmirror.com/https://raw.githubusercontent.com/Ethan-Men/8159-TV/refs/heads/master/output/ipv4/result.m3u",
+            "timeout": 10
+        },
+        {
+            "name": "洪宇虎牙一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇斗鱼一起看",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇YY轮播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇AI直播",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "timeout": 10
+        },
+        {
+            "name": "洪宇Guovin",
+            "type": 0,
+            "url": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
+            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+            "timeout": 10
+        },
+        {
+            "name": "洪宇咪咕直播",
+            "type": 0,
+            "url": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
+            "timeout": 10
+        },
+
+        {
+            "name": "洪宇B站直播",
+            "type": 3,
+            "api": "csp_Feiyang",
+            "url": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
+            "timeout": 10,
+            "ua": "okhttp/3.15"
+        },
+        {
+            "name": "洪宇电视Live",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Gather",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "洪宇网络Live",
+            "type": 0,
+            "url": "https://tv.iill.top/m3u/Live",
+            "playerType": 2,
+            "timeout": 10
+        },
+        {
+            "name": "洪宇范明明",
+            "type": 0,
+            "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+            "timeout": 10
+        },
+        {
+            "name": "洪宇APTV",
+            "type": 0,
+            "url": "https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+            "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+            "logo": "https://epg.iill.top/logo/{name}.png",
+            "ua": "okhttp/3.15,AptvPlayer/1.4.0",
+            "timeout": 10
+        }
+    ],
+    "hosts": [
+        "cache.ott.*.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+        "cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
+    ],
+    "flags": [
+        "youku",
+        "优酷",
+        "优 酷",
+        "优酷视频",
+        "qq",
+        "腾讯",
+        "腾 讯",
+        "腾讯视频",
+        "iqiyi",
+        "qiyi",
+        "奇艺",
+        "爱奇艺",
+        "爱 奇 艺",
+        "m1905",
+        "xigua",
+        "letv",
+        "leshi",
+        "乐视",
+        "乐 视",
+        "sohu",
+        "搜狐",
+        "搜 狐",
+        "搜狐视频",
+        "tudou",
+        "pptv",
+        "mgtv",
+        "芒果",
+        "imgo",
+        "芒果TV",
+        "芒 果 T V",
+        "bilibili",
+        "哔 哩",
+        "哔 哩 哔 哩"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "洪宇opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "洪宇skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "洪宇opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "洪宇skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "洪宇mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "洪宇dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "ads": [
+        "static-mozai.4gtv.tv"
+    ]
+}
+
+
+
+
+
+
+
+
+
+
