@@ -20,11 +20,12 @@
                 "version": "vvvvse/yu"
             },
             {
-                "name": "点击下载",
+                "name": "网络地址",
                 "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/sa.zip",
-                "icon": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/HYTV.png",
+                "icon": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/HYTV.png","copy":"https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/api.json",
                 "version": "vvvvse/yu"
             }
         ]
     }
+
 ]
