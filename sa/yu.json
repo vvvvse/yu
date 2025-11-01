@@ -1,0 +1,30 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "本地包",
+                "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/sa.zip",
+                "icon": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/HYTV.png",
+                "version": "vvvvse/yu"
+            }
+        ]
+    },
+    {
+        "name": "本地包",
+        "list": [
+            {
+                "name": "sa.zip",
+                "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/sa.zip",
+                "icon": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/HYTV.png",
+                "version": "vvvvse/yu"
+            },
+            {
+                "name": "点击下载",
+                "url": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/sa.zip",
+                "icon": "https://daili.korice.eu.org/https://raw.githubusercontent.com/vvvvse/yu/refs/heads/yu/sa/HYTV.png",
+                "version": "vvvvse/yu"
+            }
+        ]
+    }
+]
